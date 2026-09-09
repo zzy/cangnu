@@ -22,6 +22,7 @@ use topcoat::{
     cookie::RouterBuilderCookieExt,
     font::{Font, fontsource::fontsource_font},
     router::{Router, RouterBuilderDiscoverExt, Slot, layout, module_router, tower::TowerLayer, BodyLimit},
+    runtime::RouterBuilderRuntimeExt,
     session::RouterBuilderSessionExt,
     tailwind,
     view::{View, view},
@@ -44,6 +45,7 @@ pub fn router() -> Router {
 
     module_router!()
         .discover()
+        .runtime()
         .cookies()
         .sessions(crate::common::session::session_config())
         .assets(AssetBundle::load().unwrap())
