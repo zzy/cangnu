@@ -363,9 +363,9 @@ dependencies = [
 
 [[package]]
 name = "bitflags"
-version = "2.13.1"
+version = "2.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b588b76d00fde79687d7646a9b5bdf3cc0f655e0bbd080335a95d7e96f3587da"
+checksum = "3ded4057c258ba199e2d26386d3af3780957ecaee6c4ef4041c6b4b8b97c0b06"
 
 [[package]]
 name = "blake2"
@@ -5043,7 +5043,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "futures-util",
  "inventory",
@@ -5073,7 +5073,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-asset"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "http",
  "memchr",
@@ -5089,7 +5089,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-cookie"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "cookie",
  "getrandom 0.2.17",
@@ -5102,7 +5102,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-core"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "anyhow",
  "anymap3",
@@ -5116,7 +5116,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-core-grammar"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "proc-macro-crate",
  "proc-macro2",
@@ -5126,7 +5126,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-core-macro"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "quote",
  "syn 2.0.119",
@@ -5135,7 +5135,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-font"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "heck 0.5.0",
  "inventory",
@@ -5150,7 +5150,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-font-grammar"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5161,7 +5161,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-font-macro"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "quote",
  "syn 2.0.119",
@@ -5170,7 +5170,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-icon"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "serde",
  "serde_json",
@@ -5183,7 +5183,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-icon-grammar"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "heck 0.5.0",
  "proc-macro2",
@@ -5196,7 +5196,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-icon-macro"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5206,7 +5206,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-mail"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "lettre",
  "thiserror",
@@ -5218,7 +5218,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-mail-grammar"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5230,7 +5230,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-mail-macro"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "quote",
  "syn 2.0.119",
@@ -5239,7 +5239,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-router"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "bytes",
  "form_urlencoded",
@@ -5270,7 +5270,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-router-grammar"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "heck 0.5.0",
  "proc-macro2",
@@ -5281,7 +5281,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-router-macro"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "quote",
  "syn 2.0.119",
@@ -5290,7 +5290,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-runtime"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "inventory",
  "ref-cast",
@@ -5300,12 +5300,11 @@ dependencies = [
  "topcoat-core",
  "topcoat-router",
  "topcoat-view",
- "uuid",
 ]
 
 [[package]]
 name = "topcoat-runtime-grammar"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5319,7 +5318,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-runtime-macro"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "quote",
  "syn 2.0.119",
@@ -5328,7 +5327,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-session"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "base64 0.22.1",
  "getrandom 0.4.3",
@@ -5343,7 +5342,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-tailwind"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "sha2 0.11.0",
  "thiserror",
@@ -5353,11 +5352,11 @@ dependencies = [
 
 [[package]]
 name = "topcoat-ui-registry"
-version = "0.7.0"
+version = "0.8.0"
 
 [[package]]
 name = "topcoat-view"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "base64 0.22.1",
  "futures-core",
@@ -5372,7 +5371,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-view-grammar"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "heck 0.5.0",
  "proc-macro2",
@@ -5384,7 +5383,7 @@ dependencies = [
 
 [[package]]
 name = "topcoat-view-macro"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "quote",
  "syn 2.0.119",
@@ -5675,9 +5674,9 @@ checksum = "b6c140620e7ffbb22c2dee59cafe6084a59b5ffc27a8859a5f0d494b5d52b6be"
 
 [[package]]
 name = "uuid"
-version = "1.26.0"
+version = "1.26.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b5772d71c9be8a8a6ac2117d949c5b224c1b72241bb611d9a3012edcf8af7812"
+checksum = "2ef6dac1e96601b4fb3acccccff2139741fcb757cb9a36089bf5be91cfb285ce"
 dependencies = [
  "getrandom 0.4.3",
  "js-sys",
