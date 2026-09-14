@@ -1,8 +1,8 @@
 [package]
-name = "raolv"
+name = "cangnu"
 version = "0.1.0"
 edition = "2024"
-description = "饶旅 — 记录旅途、分享见闻"
+description = "cangnu — 苍弩 媒体内容管理"
 
 [dependencies]
 topcoat = { path = "../tmp/topcoat/crates/topcoat", features = [

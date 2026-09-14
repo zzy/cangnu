@@ -1,13 +1,13 @@
 services:
   app:
-    image: ghcr.io/zzy/raolv:latest
+    image: ghcr.io/zzy/cangnu:latest
     restart: always
     ports:
       - "7700:7700"
     env_file:
       - .env
     volumes:
-      - /root/raolv-uploads:/app/data/media
+      - /root/cangnu-uploads:/app/data/media
     networks:
       - surrealdb_net
 

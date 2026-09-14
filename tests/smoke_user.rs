@@ -2,8 +2,8 @@
 //!
 //! 运行方式：`cargo test --test smoke_user -- --ignored`
 
-use raolv::common::auth;
-use raolv::db;
+use cangnu::common::auth;
+use cangnu::db;
 use surrealdb::types::SurrealValue;
 
 #[tokio::test]

@@ -1,10 +1,10 @@
-# RaoLv - 饶旅
+# cangnu - 苍弩
 
-> 饶(ráo), rich, abundant, fulfilled; 旅(lv̌/lǚ), trip, travel, journey.
+> 苍(cāng), the heavens, the vast azure sky; 弩(nǔ) — the crossbow.
 
 A media content management site for articles, videos, photos, etc - built on [topcoat](https://github.com/tokio-rs/topcoat) and [surrealdb](https://surrealdb.com/) — all Rust, single binary.
 
-Demo: https://raolv.com
+Demo: https://cangnu.com
 
 ## Stack
 
@@ -34,11 +34,11 @@ Config lives in `.env` (keys defined in `src/common/config.rs`).
 Multi-stage Dockerfile; the topcoat path dependency is swapped to the GitHub main branch at build time.
 
 ```sh
-docker build -t ghcr.io/zzy/raolv:latest .
+docker build -t ghcr.io/zzy/cangnu:latest .
 docker compose up -d
 ```
 
-- Port `7700`; uploads volume `/root/raolv-uploads:/app/data/media`
+- Port `7700`; uploads volume `/root/cangnu-uploads:/app/data/media`
 - External network `surrealdb_net`; server `.env` sets `DB_URL` to the surrealdb container
 - nginx: no rewrites (locale negotiation is in-app), disable buffering, raise timeouts (SSE, video upload)
 
